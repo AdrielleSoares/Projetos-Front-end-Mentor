@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: lightsalmon;
+    margin: 0;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+.container-1 {
+   display: flex;
+   justify-content: center;
+   width: 50%;
+   width: 30%;
+}
+
+.img-perfume {
+    height: 100%;
+    width: 100%;
+
+}
+    
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px;
+    text-align: center;
+    width: 30%;
+    background-color: #f4eded;
+    
+    
+    
+    
+}
+
+.perfume {
+    font-style:italic;
+    font-size: 25px;
+}
+.titulo-1 {
+    font-size: 20px;
+}
+
+.subtitulo-2 {
+    font-size: 18px;
+}
+.valor-promocional {
+    font-size: 20px;
+}
+
+.valor-principal {
+    font-size: 20px;
+    text-decoration:line-through;
+}
+
+.botao {
+    background-color:rgb(34, 167, 123);
+    color:blank;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    
+    
+}
+
+.rodape {
+    display:inline;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 12px;
+
+}
